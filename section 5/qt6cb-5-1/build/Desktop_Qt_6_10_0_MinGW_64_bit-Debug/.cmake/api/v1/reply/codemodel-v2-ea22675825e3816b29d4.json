@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "qt6cb-5-1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "qt6cb-5-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt6cb-5-1-Debug-116b07fa8bc9aa7c1e44.json",
+					"name" : "qt6cb-5-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt6cb-5-1_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt6cb-5-1_autogen-Debug-4066c02e90c137d79a0b.json",
+					"name" : "qt6cb-5-1_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt6cb-5-1_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt6cb-5-1_autogen_timestamp_deps-Debug-afa743c94039976396ed.json",
+					"name" : "qt6cb-5-1_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/ryota/Documents/Qt_Udemy/QtFiles_clone/qt6-core-beginners/section 5/qt6cb-5-1/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug",
+		"source" : "C:/Users/ryota/Documents/Qt_Udemy/QtFiles_clone/qt6-core-beginners/section 5/qt6cb-5-1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -21,17 +21,10 @@ int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
 
-    //C++ way
-    cout << "Hello" << endl;
-
-    //Qt way
-    qInfo() << "Hello";
-
     int age = 44;
-    cout << age;
-    cout << endl;
-    cout << flush;
-
+    qInfo() << "Plz enter your age:";
+    cin >> age;
+    qInfo() << "you entered age:" << age;
 
     return a.exec();
 }
