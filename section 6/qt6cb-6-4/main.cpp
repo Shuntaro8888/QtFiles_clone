@@ -18,11 +18,11 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    QCoreApplication a(argc, argv);
+    QCoreApplication a(argc, argv); //#include <QCoreApplication>
 
     int age = 0;
-    qInfo() << "Please enter your age:";
-    cin >> age;
+    qInfo() << "Please enter your age:"; //#include <QDebug>
+    cin >> age; //#include <iostream> using namespace std;
 
     age > 0 && age <= 100 ? qInfo("You entered a valid age") : qFatal("You did not enter a valid age");
 

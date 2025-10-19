@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
         break;
     case 18:
         qInfo() << "You can vote";
-        break;
+        //break; fall through
     case 21:
         qInfo() << "You can drink";
         break;

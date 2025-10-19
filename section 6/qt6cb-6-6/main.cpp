@@ -23,17 +23,17 @@ int main(int argc, char *argv[])
     int start = 80;
     int max = 100;
 
-    //While loop - evaluate first
-    int i = start;
+    // while loop - evaluate first
+    int i = 1000;
     while(i < max) {
-        qInfo() << "While = " << i;
+        qInfo() << "while = " << i;
         i++;
     }
 
-    qInfo("------------");
+    qInfo("-------------");
 
     //Do loop - evaluate last
-    i = start;
+    i = 1000;
     do {
         qInfo() << "Do = " << i;
         i++;

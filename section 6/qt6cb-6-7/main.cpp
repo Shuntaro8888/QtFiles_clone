@@ -32,10 +32,21 @@ int main(int argc, char *argv[])
         qInfo() << "i = " << i;
     }
 
-    array<int,4> ages = {44,56,32,16}; //Zero based index array
-    for(unsigned long i = 0;i < ages.size();i++) {
+    array<int, 4> ages = {44, 56, 32, 16};
+
+    for(int i = 0; i < ages.size(); i++) {
         qInfo() << "ages[" << i << "] = " << ages.at(i);
     }
+
+
+
+
+
+
+
+
+
+
 
     return a.exec();
 }
